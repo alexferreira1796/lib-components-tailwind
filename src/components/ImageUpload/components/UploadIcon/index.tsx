@@ -1,10 +1,8 @@
 import { type FC } from 'react';
 
-import { Upload } from './styles';
-
 export const UploadIcon: FC = () => {
 	return (
-		<Upload>
+		<div className="w-6 inline-block">
 			<svg
 				width="31"
 				height="31"
